@@ -5,7 +5,7 @@ import AddAgent from './AddAgent/page'
 import { useRouter } from 'next/navigation'
 
 
-export default function page() {
+export default function Page() {
   const route = useRouter()
   const handelClick = () => {
     route.push('/Login')
